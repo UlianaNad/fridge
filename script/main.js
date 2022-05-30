@@ -30,7 +30,7 @@ const run = () => {
 
 run();
 
-elSalary.addEventlistener('change', run);
-elShopping.addEventlistener('change', run);
+elSalary.addEventListener('change', run);
+elShopping.addEventListener('change', run);
 
 
